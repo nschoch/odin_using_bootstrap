@@ -11,6 +11,12 @@
     <title>Bootstrap Practice</title>
   </head>
   <body>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Cookie alert!</strong> We use cookies to gather and then sell your personal information. <strong>Deal with it.</strong>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
     <header>Newsweek</header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,22 +65,30 @@
     </nav>
     <div class="container">
       <div class="row">
+
         <div class="col">
-          <article class="container">
-            <div class="article-header">
-              With the U.S. Preoccupied, China Sees Opportunity to Expand Influence
+          <div class="card" style="width: 18rem;">
+            <img src="boris.png" class="card-img-top" alt="Boris Johnson">
+            <div class="card-body">
+              <h5 class="card-title">U.K. Prime Minister Boris Johnson Hospitalized Over 'Persistent' COVID-19 Symptoms</h5>
+              <p class="card-text">A spokesperson from 10 Downing Street said the prime minister has been admitted to a hospital Sunday night for tests.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-            <p>The world's richest nations are struggling to contain coronavirus, and the picture for the developing world looks grim.</p>
-          </article>
-        </div>
+          </div>
+        </div>  
+        
         <div class="col">
-          <article class="container">
-            <div class="article-header">
-              U.K. Prime Minister Boris Johnson Hospitalized Over 'Persistent' COVID-19 Symptoms
+          <div class="card" style="width: 18rem;">
+            <img src="covid.png" class="card-img-top" alt="Boris Johnson">
+            <div class="card-body">
+              <h5 class="card-title">
+                With the U.S. Preoccupied, China Sees Opportunity to Expand Influence</h5>
+              <p class="card-text">The world's richest nations are struggling to contain coronavirus, and the picture for the developing world looks grim.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-            <p>A spokesperson from 10 Downing Street said the prime minister has been admitted to a hospital Sunday night for tests.</p>
-          </article>
+          </div>
         </div>
+
         <div class="col col-lg-2">
           <aside class="container">
             <div class="side-header">Opinion</div>
